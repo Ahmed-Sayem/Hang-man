@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="1151.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1151.0" pickOnBounds="true" preserveRatio="true" style="visibility: #0098DE;">
+         <image>
+            <Image url="@../-hd-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="a" layoutX="225.0" layoutY="477.0" mnemonicParsing="false" onAction="#bta" onMouseClicked="#bta" opacity="0.87" style="-fx-background-color: #00003b;" text="A" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="b" layoutX="295.0" layoutY="477.0" mnemonicParsing="false" onAction="#btb" opacity="0.87" style="-fx-background-color: #00003b;" text="B" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="c" layoutX="363.0" layoutY="477.0" mnemonicParsing="false" onAction="#btc" opacity="0.87" style="-fx-background-color: #00003b;" text="C" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="d" layoutX="430.0" layoutY="477.0" mnemonicParsing="false" onAction="#btd" opacity="0.87" style="-fx-background-color: #00003b;" text="D" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="e" layoutX="501.0" layoutY="477.0" mnemonicParsing="false" onAction="#bte" opacity="0.87" style="-fx-background-color: #00003b;" text="E" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="f" layoutX="565.0" layoutY="477.0" mnemonicParsing="false" onAction="#btf" opacity="0.87" style="-fx-background-color: #00003b;" text="F" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="g" layoutX="629.0" layoutY="477.0" mnemonicParsing="false" onAction="#btg" opacity="0.87" style="-fx-background-color: #00003b;" text="G" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="h" layoutX="699.0" layoutY="477.0" mnemonicParsing="false" onAction="#bth" opacity="0.87" style="-fx-background-color: #00003b;" text="H" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="y" layoutX="704.0" layoutY="624.0" mnemonicParsing="false" onAction="#bty" opacity="0.87" style="-fx-background-color: #00003b;" text="Y" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="j" layoutX="246.0" layoutY="551.0" mnemonicParsing="false" onAction="#btj" opacity="0.87" style="-fx-background-color: #00003b;" text="J " textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="k" layoutX="316.0" layoutY="551.0" mnemonicParsing="false" onAction="#btk" opacity="0.87" style="-fx-background-color: #00003b;" text="K" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="l" layoutX="384.0" layoutY="551.0" mnemonicParsing="false" onAction="#btl" opacity="0.87" style="-fx-background-color: #00003b;" text="L " textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="m" layoutX="456.0" layoutY="551.0" mnemonicParsing="false" onAction="#btm" opacity="0.87" style="-fx-background-color: #00003b;" text="M" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="n" layoutX="531.0" layoutY="551.0" mnemonicParsing="false" onAction="#btn" opacity="0.87" style="-fx-background-color: #00003b;" text="N" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="o" layoutX="604.0" layoutY="551.0" mnemonicParsing="false" onAction="#bto" opacity="0.87" style="-fx-background-color: #00003b;" text="O" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="p" layoutX="676.0" layoutY="551.0" mnemonicParsing="false" onAction="#btp" opacity="0.87" style="-fx-background-color: #00003b;" text="P" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="q" layoutX="743.0" layoutY="551.0" mnemonicParsing="false" onAction="#btq" opacity="0.87" style="-fx-background-color: #00003b;" text="Q" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="r" layoutX="219.0" layoutY="624.0" mnemonicParsing="false" onAction="#btr" opacity="0.87" style="-fx-background-color: #00003b;" text="R" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="s" layoutX="287.0" layoutY="624.0" mnemonicParsing="false" onAction="#bts" opacity="0.87" style="-fx-background-color: #00003b;" text="S" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="t" layoutX="351.0" layoutY="624.0" mnemonicParsing="false" onAction="#btt" opacity="0.87" style="-fx-background-color: #00003b;" text="T" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="u" layoutX="417.0" layoutY="624.0" mnemonicParsing="false" onAction="#btu" opacity="0.87" style="-fx-background-color: #00003b;" text="U" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="v" layoutX="487.0" layoutY="624.0" mnemonicParsing="false" onAction="#btv" opacity="0.87" style="-fx-background-color: #00003b;" text="V" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="w" layoutX="556.0" layoutY="624.0" mnemonicParsing="false" onAction="#btw" opacity="0.87" style="-fx-background-color: #00003b;" text="W" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="636.0" layoutY="624.0" mnemonicParsing="false" onAction="#btx" opacity="0.87" style="-fx-background-color: #00003b;" text="X" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true" fx:id="x">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="i" layoutX="771.0" layoutY="477.0" mnemonicParsing="false" onAction="#bti" opacity="0.87" style="-fx-background-color: #00003b;" text="I" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="z" layoutX="771.0" layoutY="624.0" mnemonicParsing="false" onAction="#btz" opacity="0.87" style="-fx-background-color: #00003b;" text="Z" textAlignment="CENTER" textFill="#f0f2f1" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="face2" fitHeight="118.0" fitWidth="141.0" layoutX="28.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Head3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="body" fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Body.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="h2" fitHeight="90.0" fitWidth="39.0" layoutX="111.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../LHand.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="h1" fitHeight="91.0" fitWidth="39.0" layoutX="29.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../RHand.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l2" fitHeight="81.0" fitWidth="55.0" layoutX="110.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../RLeg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l1" fitHeight="81.0" fitWidth="42.0" layoutX="67.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../LLeg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="face1" fitHeight="118.0" fitWidth="141.0" layoutX="28.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Head1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="two" layoutX="338.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="four" layoutX="453.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="five" layoutX="511.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="six" layoutX="570.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="seven" layoutX="628.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="eight" layoutX="687.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="nine" layoutX="741.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="ten" layoutX="797.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="three" layoutX="395.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="one" layoutX="281.0" layoutY="303.0" prefHeight="124.0" prefWidth="73.0" text="_" textFill="#f8f8f8">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="571.0" text="REMAINING" textFill="#25f7cf">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="remain" layoutX="63.0" layoutY="589.0" text="6" textFill="#ee0909">
+         <font>
+            <Font name="System Bold" size="69.0" />
+         </font>
+      </Label>
+      <Label layoutX="1011.0" layoutY="10.0" text="POINTS" textFill="#c825f5">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="points" layoutX="1003.0" layoutY="28.0" text="00" textFill="#09ed6a">
+         <font>
+            <Font name="System Bold" size="69.0" />
+         </font>
+      </Label>
+      <Button fx:id="newgame" layoutX="976.0" layoutY="614.0" mnemonicParsing="false" onAction="#btng" style="-fx-background-color: #4c4c4c;" text="START GAME" textFill="#110014">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
